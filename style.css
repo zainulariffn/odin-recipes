@@ -1,0 +1,107 @@
+* {
+  background-color: grey;
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+  font-family: "Courier New", Courier, monospace;
+}
+
+.link {
+  background-color: white;
+}
+
+.a-rd {
+  color: red;
+}
+
+.a-gr {
+  color: green;
+}
+
+.a-bl {
+  color: blue;
+}
+
+h1 {
+  font-size: 48px;
+  color: goldenrod;
+}
+
+span {
+  color: white;
+}
+
+.img-salt {
+  max-width: 20%;
+  height: auto;
+  margin-bottom: 36px;
+}
+
+/* Override exercise from h1 */
+.color {
+  font-size: 64px;
+}
+
+.rd {
+  color: red;
+}
+
+.gr {
+  color: green;
+}
+
+.bl {
+  color: blue;
+}
+
+a {
+  font-size: 32px;
+  background-color: goldenrod;
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 48px;
+  color: brown;
+}
+
+div p {
+  font-size: 30px;
+  color: lightcoral;
+}
+
+h3 {
+  font-size: 32px;
+  color: yellow;
+}
+
+.h3-dif {
+  color: greenyellow;
+}
+
+ul li,
+ol li {
+  font-size: 20px;
+}
+
+ul li {
+  list-style: square;
+  color: lightyellow;
+}
+
+ol li {
+  color: lightgreen;
+}
+
+#rendang-back {
+  background-color: red;
+}
+
+#palekko-back {
+  background-color: green;
+}
+
+#apam-back {
+  background-color: blue;
+}
