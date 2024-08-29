@@ -1,9 +1,20 @@
 * {
   background-color: grey;
-  /* margin: 0;
+  margin: 0;
   padding: 0;
-  box-sizing: border-box; */
+  box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.fl {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 
 .link {
@@ -25,6 +36,8 @@
 h1 {
   font-size: 48px;
   color: goldenrod;
+  text-align: center;
+  margin: 48px 0px;
 }
 
 span {
@@ -32,9 +45,13 @@ span {
 }
 
 .img-salt {
-  max-width: 20%;
-  height: auto;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
   margin-bottom: 36px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
 }
 
 /* Override exercise from h1 */
